@@ -7,7 +7,7 @@ class App < Sinatra::Base
   end
 
   get '/name' do
-    "Daniel Schneider"
+    "My name is Daniel Schneider"
     #erb : 'name/index.html'
   end
 
