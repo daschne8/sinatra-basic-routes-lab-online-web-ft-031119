@@ -10,7 +10,7 @@ class App < Sinatra::Base
     "Baltimore"
   end
 
-  get 'favorite-song' do
+  get '/favorite-song' do
     'Girl'
   end
 
