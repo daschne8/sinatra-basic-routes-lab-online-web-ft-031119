@@ -4,6 +4,7 @@ class App < Sinatra::Base
 
   get '/name' do
     "Daniel Schneider"
+    erb : 'name/index.html'
   end
 
   get '/hometown' do
